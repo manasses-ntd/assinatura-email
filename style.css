@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
+        width: 600px;
+        border: 1px solid red;
+
+        .card-template {
+            .card-template-image {
+                max-width: 150px;
+            }
+        }
+
+        .card-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            .card-info-name {
+                font-family: "Montserrat", sans-serif;
+                font-size: 24px;
+                font-weight: 500;
+                font-style: normal;
+                color: #000;
+            }
+
+            .card-info-function {
+                font-family: "Montserrat", sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                font-style: normal;
+                color: #000;
+                margin-bottom: 10px;
+            }
+
+            .card-info-phone {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                gap: 5px;
+
+                .material-symbols-outlined {
+                    color: #E82323;
+                }
+
+                .card-info-phone-link {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+
+            .card-info-mail {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                gap: 5px;
+
+                .material-symbols-outlined {
+                    color: #E82323;
+                }
+
+                .card-info-mail-link {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+
+            .card-info-site {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                gap: 5px;
+
+                .material-symbols-outlined {
+                    color: #E82323;
+                }
+
+                .card-info-site-link {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+            
+        }
+
+        .card-certification {
+            margin-left: 10px;
+
+            .card-certification-text {
+                font-family: "Montserrat", sans-serif;
+                font-size: 12px;
+                font-weight: 500;
+                font-style: normal;
+                color: #000;
+            }
+        }
+    }
+}
