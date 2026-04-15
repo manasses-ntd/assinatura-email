@@ -16,7 +16,6 @@ body {
         align-items: flex-start;
         padding: 10px;
         width: 600px;
-        border: 1px solid red;
 
         .card-template {
             .card-template-image {

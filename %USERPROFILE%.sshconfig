@@ -1,0 +1,4 @@
+Host github-empresa
+  HostName github.com
+  User git
+  IdentityFile C:/Users/Manasses/.ssh/id_ed25519_empresa
