@@ -1,65 +1,53 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 
     .card {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
         padding: 10px;
+        max-width: 600px;
         width: 600px;
 
         .card-template {
+            float: left;
+
             .card-template-image {
                 max-width: 150px;
             }
         }
 
         .card-info {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
 
             .card-info-name {
                 font-family: "Montserrat", sans-serif;
-                font-size: 24px;
+                font-size: 18px;
                 font-weight: 500;
                 font-style: normal;
                 color: #000;
+                margin-bottom: 0;
             }
 
             .card-info-function {
                 font-family: "Montserrat", sans-serif;
-                font-size: 18px;
+                font-size: 14px;
                 font-weight: 400;
                 font-style: normal;
                 color: #000;
-                margin-bottom: 10px;
+                margin-bottom: 20px;
             }
 
             .card-info-phone {
-                display: flex;
-                flex-direction: row;
-                justify-content: start;
-                align-items: center;
-                gap: 5px;
-
-                .material-symbols-outlined {
-                    color: #E82323;
+                .card-info-phone-img {
+                    width: 22px;
+                    vertical-align: middle;
                 }
 
                 .card-info-phone-link {
                     font-family: "Montserrat", sans-serif;
-                    font-size: 16px;
+                    font-size: 14px;
                     font-weight: 400;
                     font-style: normal;
                     text-decoration: none;
@@ -68,19 +56,14 @@ body {
             }
 
             .card-info-mail {
-                display: flex;
-                flex-direction: row;
-                justify-content: start;
-                align-items: center;
-                gap: 5px;
-
-                .material-symbols-outlined {
-                    color: #E82323;
+                .card-info-phone-img {
+                    width: 22px;
+                    vertical-align: middle;
                 }
 
                 .card-info-mail-link {
                     font-family: "Montserrat", sans-serif;
-                    font-size: 16px;
+                    font-size: 14px;
                     font-weight: 400;
                     font-style: normal;
                     text-decoration: none;
@@ -89,19 +72,14 @@ body {
             }
 
             .card-info-site {
-                display: flex;
-                flex-direction: row;
-                justify-content: start;
-                align-items: center;
-                gap: 5px;
-
-                .material-symbols-outlined {
-                    color: #E82323;
+                .card-info-site-img {
+                    width: 22px;
+                    vertical-align: middle;
                 }
 
                 .card-info-site-link {
                     font-family: "Montserrat", sans-serif;
-                    font-size: 16px;
+                    font-size: 14px;
                     font-weight: 400;
                     font-style: normal;
                     text-decoration: none;
@@ -116,7 +94,7 @@ body {
 
             .card-certification-text {
                 font-family: "Montserrat", sans-serif;
-                font-size: 12px;
+                font-size: 10px;
                 font-weight: 500;
                 font-style: normal;
                 color: #000;
